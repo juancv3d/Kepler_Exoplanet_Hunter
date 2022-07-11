@@ -20,3 +20,6 @@ This dataset has an extensive data dictionary, which can be accessed here. Highl
     koi_score: A value between 0 and 1 that indicates the confidence in the KOI disposition. For CANDIDATEs, a higher value indicates more confidence in its disposition, while for FALSE POSITIVEs, a higher value indicates less confidence in that disposition.
 
 data: https://exoplanetarchive.ipac.caltech.edu/cgi-bin/TblView/nph-tblView?app=ExoTbls&config=koi
+
+Data Columns in Kepler Objects of Interest Table
+https://exoplanetarchive.ipac.caltech.edu/docs/API_kepcandidate_columns.html
