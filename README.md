@@ -1,4 +1,4 @@
-# Kepler_Exoplanets_Search
+# Kepler_Exoplanet_Hunter
 
 # About Dataset
 
