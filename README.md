@@ -11,6 +11,8 @@ Content
 
 This dataset is a cumulative record of all observed Kepler "objects of interest" — basically, all of the approximately 10,000 exoplanet candidates Kepler has taken observations on.
 
+## kepler_data
+
 This dataset has an extensive data dictionary, which can be accessed here. Highlightable columns of note are:
 
     kepoi_name: A KOI is a target identified by the Kepler Project that displays at least one transit-like sequence within Kepler time-series photometry that appears to be of astrophysical origin and initially consistent with a planetary transit hypothesis
@@ -18,6 +20,20 @@ This dataset has an extensive data dictionary, which can be accessed here. Highl
     koi_disposition: The disposition in the literature towards this exoplanet candidate. One of CANDIDATE, FALSE POSITIVE, NOT DISPOSITIONED or CONFIRMED.
     koi_pdisposition: The disposition Kepler data analysis has towards this exoplanet candidate. One of FALSE POSITIVE, NOT DISPOSITIONED, and CANDIDATE.
     koi_score: A value between 0 and 1 that indicates the confidence in the KOI disposition. For CANDIDATEs, a higher value indicates more confidence in its disposition, while for FALSE POSITIVEs, a higher value indicates less confidence in that disposition.
+
+## exoplanets_discovered
+
+    COLUMN sy_snum:        Number of Stars
+    COLUMN sy_pnum:        Number of Planets
+    COLUMN discoverymethod: Discovery Method
+    COLUMN disc_year:      Discovery Year
+    COLUMN disc_facility:  Discovery Facility
+    COLUMN pl_orbper:      Orbital Period [days]
+    COLUMN pl_rade:        Planet Radius [Earth Radius]
+    COLUMN pl_radj:        Planet Radius [Jupiter Radius]
+    COLUMN pl_bmasse:      Planet Mass or Mass*sin(i) [Earth Mass]
+    COLUMN pl_bmassj:      Planet Mass or Mass*sin(i) [Jupiter Mass]
+    COLUMN pl_dens:        Planet Density [g/cm**3]
 
 # Acknowledgements
 
